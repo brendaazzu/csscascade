@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20190630/original/pngtree-css-file-document-icon-png-image_4177015.jpg" type="image/png">
+    <title>CSS Cascade</title>
+    
+  </head>
+
+  <body>
+
+    <div id="outer-box1" class="box1">
+      <div class="box1">
+        <p class="boxtitle1">Title</p>
+        <div class="box-inner-box1">
+          <p class="white-text1" id="text1"></p>
+          <script>
+            const text1 = "Write your message here!";
+            let index1 = 0;
+            const intervalId1 = setInterval(() => {
+              document.getElementById("text1").textContent += text1[index1];
+              index1++;
+              if (index1 === text1.length) clearInterval(intervalId1);
+            }, 100);
+          </script>
+        </div>
+      </div>
+    </div>
+    
+    <div id="outer-box2" class="box2">
+      <div class="box2">
+            <p class="boxtitle2">Title</p>
+        <div class="box-inner-box2">
+              <p class="white-text2" id="text2"></p>
+              <script>
+                const text2 = "Write your message here!";
+                let index2 = 0;
+                const intervalId2 = setInterval(() => {
+                  document.getElementById("text2").textContent += text2[index2];
+                  index2++;
+                  if (index2 === text1.length) clearInterval(intervalId2);
+                }, 100);
+              </script>
+         </div>      
+       </div>
+     </div>
+
+  </body>
+
+</html>

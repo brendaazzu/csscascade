@@ -1,0 +1,47 @@
+
+#outer-box1, #outer-box2 {
+  background-color: rgb(64, 7, 95);
+  border-radius: 5px;
+  border-color: rgb(191, 234, 243);
+  border-style: double;
+  padding: 7px;
+  margin: 5px;
+  position: center;
+  max-width: 50%;
+  
+}
+
+.box1, .box2 {
+  background-color: rgb(106, 186, 215);
+  border-radius: 5px;
+  border-color: rgb(191, 234, 243);
+  border-style: double;
+  padding: 7px;
+  margin: 10px;
+}
+
+.box-inner-box1, .box-inner-box2 {
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: rgba(131, 208, 236, 0.593);
+  border-style: double;
+  padding: 7px;
+}
+
+.boxtitle1, .boxtitle2 {
+  color: rgb(64, 7, 95);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  margin-bottom: 5px;
+  padding: 1px;
+  font-weight: bold;
+}
+
+
+p {
+  color: rgb(64, 7, 95);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  margin: 0px;
+  padding: 2px;
+}
